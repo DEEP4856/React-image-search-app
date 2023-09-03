@@ -1,0 +1,47 @@
+
+
+
+body {
+  background-color: black;
+  margin: 0;
+  
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1{
+  font-family: fantasy;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.images {
+  margin-top: var(--m-margin);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: var(--default-spacing);
+  justify-content: center;
+  align-items: center;
+}
+
+.images .image {
+  width: 200px;
+  height: 200px;
+  justify-self: center;
+  align-self: center;
+  /* margin-left: ; */
+  border-radius: 5px;
+  transition: transform 0.2s;
+  margin: 10px;
+}
+
+.images .image:hover {
+  transform: translateY(-3px);
+}
+.buttons{
+  text-align: center;
+
+}
