@@ -5,8 +5,11 @@
 
 
  body{
-  background-color: black;
- }
+  background-color: black !important;
+}
+.title{
+  color: rgb(255, 255, 255);
+}
 .App {
   text-align: center;
 }
